@@ -1,4 +1,5 @@
 from Data import FinanceData
+#hjhjhjhj
 
 if __name__ == '__main__':
 	dataSource = FinanceData()
@@ -21,5 +22,5 @@ if __name__ == '__main__':
 	print('\nGet stock volatility')
 	print(dataSource.getVol(ticker,window = 252))
 
-	print('\nGet stock market cap')
+	
 	print(dataSource.getMarketCap(ticker))
