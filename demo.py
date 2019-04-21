@@ -20,7 +20,6 @@ if __name__ == '__main__':
 	print(dataSource.getDetailPriceInfo(ticker, startDate, endDate,columns = ['open','close','high','volume'], frequency= 'W', dateAscending=True).head(10))
 
 	print('\nGet stock volatility')
-	print(dataSource.getVol(ticker,window = 252))
 
 	
 	print(dataSource.getMarketCap(ticker))
