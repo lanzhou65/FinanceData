@@ -40,7 +40,6 @@ Report any bugs by opening an issue here: https://github.com/KaihuaHuang/Finance
 >> dateAscending: whether rank the price series by date ascending, the default value is true  
 >> frequency: aggregate frequency, default value is 'D', also accept 'W' for week and 'M' for month   
 > - ----output----
->> aggregated price series for single stock
 
 4. getVol(ticker,window = 365)  
 5. getMarketCap(ticker)  
